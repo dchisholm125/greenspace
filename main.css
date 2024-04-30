@@ -21,7 +21,7 @@ html {
 .profile-row {
     border-radius: 5px;
     background-image: linear-gradient(175deg, #004225d8 0%, #79AC78 90%);
-    color: #F5F5DC;
+    color: white;
     box-shadow: 5px 5px 5px grey;
 }
 
@@ -57,14 +57,22 @@ html {
 }
 
 .profile-pic {
+    /* width: 30%; */
+    border: 0.5px black;
+    border-style: solid;
     border-radius: 25px;
     background:rgba(128, 128, 128, 0.712);
-    padding: 10px;
+    padding: 25px;
     box-shadow: 1.5px 0.5px 2px rgba(128, 128, 128, 0.712);
 }
 
+.cred-cont {
+    margin: 5px;
+}
+
 .profile-creds {
-    align-items: center;
+    width: 50%;
+    align-items: left;
 }
 
 #display-name {
@@ -72,21 +80,23 @@ html {
 }
 
 #display-title {
-    font-family: "Noto Sans Display", sans-serif;
+    /* width: 40% */
+    font-family: "Nueton", "Lato", serif;
 }
 
 #user-specialties {
-    font-family: "Satisfy", cursive;
+    font-family: "Open Sans", sans-serif;
     font-weight: lighter;
+    font-size: 11pt;
 }
 
 #user-other-creds {
-    font-family: "Assistant", cursive;
+    font-family: "Nueton", "Lato", serif;
 }
 
 #user-prof {
     flex-basis: 70%;
-    /* align-items: stretch; */
+    /* align-items: flex-start; */
 }
 
 .prof-header {
@@ -98,6 +108,7 @@ html {
 .user-website-info {
     flex-basis: 30%;
     align-items: center;
+    justify-content: center;
 }
 
 .post-card {
@@ -215,10 +226,10 @@ html {
     font-weight: bold;
 }
 
-.post-form {
-    border: 1px;
-    border-style: solid;
-    border-radius: 5px;
+.post-btns {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
 }
 
 /* .recommend-card.img {
