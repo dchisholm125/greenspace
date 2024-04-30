@@ -215,6 +215,12 @@ html {
     font-weight: bold;
 }
 
+.post-form {
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
 /* .recommend-card.img {
     max-height: 25px;
 } */
